@@ -1,5 +1,4 @@
 # CodeXcelerate
-# Codexcelerate Tasks
 
 This repository contains the tasks and assignments completed as part of the Codexcelerate program.
 
