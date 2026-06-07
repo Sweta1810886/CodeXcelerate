@@ -4,31 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Registration Form</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+        body{
+            background-color: rgb(4, 80, 83);
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            display: flex;
+        }
+        .container{
+            background: rgb(176, 226, 240);
+            padding: 30px;
+            border-radius: 10px;
+            width: 350px;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 20px;
+            
+        }
+        .form-group{
+            margin-bottom: 15px;
+        }
+        label{
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], input[type="tel"]{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            
+        }
+        .gender{
+            margin-top: 10px;
+        }
+        .gender label{
+            display: inline;
+            /* flex-direction: column; */
+            margin-left: 5px;
+        }
+        button{
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(129, 221, 37);
+            color: white;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+        button:hover{
+            background-color: rgb(76, 142, 11);
+        }
+    </style>
 </head>
 <body>
-    <h1>Student Registration Form</h1>
-    <form action="">
-        <label for="name" id="name">Name:</label>
-        <input type="text"><br>
+    <div class="container">
+        <h1>Student Registration Form</h1>
 
-        <label for="email" id="email">Email:</label>
-        <input type="email"><br>
+        <form action="">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="" id="name" placeholder="Enter your name">
+            </div>
 
-        <label for="Phone" id="Phone">Phone:</label>
-        <input type="tel"><br>
-            
-        <p>Gender:</p>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" name="" id="email" placeholder="Enter your email">
+            </div>
 
-        <input type="radio"  id="female" value="female" name="gender">
-        <label for="female">Female</label><br>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" name="" id="phone" placeholder="Enter your phone number">
+            </div>
 
-        <input type="radio" id="male" value="male" name="gender">
-        <label for="male">Male</label><br>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
 
-        <input type="radio" id="other" value="other" name="gender">
-        <label for="other">Other</label><br><br>
-
-        <button type="submit">Submit</button>
-    </form>
+                <div class="gender">
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </div>
+                <div class="gender">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                </div>
+                <div class="gender">
+                    <input type="radio" name="gender" id="others">
+                    <label for="others">Others</label>
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
