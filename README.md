@@ -8,11 +8,11 @@ The purpose of this repository is to track my progress, practice web development
 
 ## Tasks Completed
 
-### Task 1: Student Form
+### Task 1: Student Registration Form
 
 **Date:** 2 June 2026
 
-Created a basic HTML student form that includes:
+This project is a simple and responsive Student Registration Form created using HTML and CSS that includes:
 
 * Name field
 * Email field
@@ -20,13 +20,26 @@ Created a basic HTML student form that includes:
 * Gender selection using radio buttons
 * Submit button
 
-**Skills Practiced:**
+Technologies Used:
+* HTML5
+* CSS3
 
-* HTML document structure
-* Forms and input elements
-* Labels
-* Radio buttons
-* Basic form organization
+### Task 2: University website completion
+
+**Date:** 4 June 2026
+
+This project is a responsive University Website created using HTML and CSS that includes:
+
+* Homepage section
+* Navigation bar
+* Courses section
+* Campus information section
+* Contact section
+* Responsive webpage layout
+
+Technologies Used:
+* HTML5
+* CSS3
 
 
 
