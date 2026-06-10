@@ -20,7 +20,7 @@ This project is a simple and responsive Student Registration Form created using 
 * Gender selection using radio buttons
 * Submit button
 
-Technologies Used:
+**Technologies Used:**
 * HTML5
 * CSS3
 
@@ -37,9 +37,28 @@ This project is a responsive University Website created using HTML and CSS that 
 * Contact section
 * Responsive webpage layout
 
-Technologies Used:
+**Technologies Used:**
 * HTML5
 * CSS3
 
+### Task 3: JavaScript Basics
 
+**Date:** 9 June 2026
 
+This code focuses on learning and practicing fundamental JavaScript concepts.
+
+**Topics Covered:**
+* Variables and Operators
+* Arithmetic Operations
+* Functions
+* Loops
+    * While Loop
+    * Do While Loop
+* Arrays
+    * push()
+    * pop()
+* Creating and Accessing Object Properties
+
+**Technologies Used:**
+* JavaScript
+* Node.js 
