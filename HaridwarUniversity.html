@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haridwar University</title>
+
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            
+        }
+        .top-bar{
+            height: 45px;
+            background:#1e2d73;
+
+        }
+        .navbar{
+            background: #fff;
+            /* border-bottom: 5px solid #6cb33f; */
+            padding:12px 30px;
+        }
+        .nav-container{
+            max-width: 1400px;
+            margin:auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            gap:10px;
+        }
+        .logo img{
+             width: 70px;
+        }
+        .logo-content h2{
+            color:#0b5574;
+            font-size: 25px;
+            line-height: 1.1;
+        }
+        .logo-content p{
+            font-size: 10px;
+            color:#666
+        }
+        .nav-link{
+            display: flex;
+            list-style: none;
+            gap:30px;
+        }
+        .nav-link a{
+            text-decoration: none;
+            color:#21345f;
+            font-size:18px;
+            /* text-decoration: ; */
+            /* text-transform: capitalize;  */
+            text-transform: uppercase;
+            
+        }
+        .badge img{
+            width:90px;
+
+        }
+        #menu-toggle{
+            display: none;
+        }
+        .hamburger{
+            display: none;
+            width:42px;
+            height:42px;
+            border:1px solid #ddd;
+            border-radius:8px;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-size: 24px;;
+
+        }
+        .content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .left{
+            font-size: 13px;
+            color: #ddd;
+           
+            
+        }
+        .right{
+            display: flex;
+            gap: 20px;
+            color: #ddd;
+            
+        }
+        .right button{
+            background-color: #80e045;
+            size: 10px;
+            box-sizing: border-box;
+            border-radius: 6px;
+            height: 28px;
+            width: 100px;
+            size: 20px;
+            color: #ddd;
+        }
+        .right a{
+            color: #ddd;
+            text-decoration: none;
+            
+        }
+        a:hover{
+            color: #6cb33f;
+        }
+        button:hover{
+            background-color: #589e2d;
+            color: white;
+        }
+        .announcement-bar{
+            height: 35px;
+            color: white;
+            background-color: rgb(93, 246, 93);
+            font-size: 18px;
+            padding: 2px;
+            text-align: center;
+           
+        }
+        .Scroll-bar{
+            animation: Scroll 10s linear infinite;
+        }
+        .scrollbar{
+            text-decoration: none;
+            color: white;
+            font-weight: bold; 
+            
+        }
+        .home{
+            height: 900px;
+            background-image: url(univ.avif);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .home-content{
+            text-align: centre;
+
+        }
+        .home h2{
+            font-size: 80px;
+            font-weight: bold;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .home-content p{
+            font-size: 30px;
+            color: white;
+           
+        }
+        .home-content button{
+            background-color:  rgb(93, 246, 93);
+            color: white;
+            border-radius: 9px;
+            height: 60px;
+            width: 150px;
+            font-size: 15px;
+            display: block;
+            margin: 20px auto;
+            margin-top: 70px;
+        }
+        @keyframes Scroll {
+            from{
+                transform: translateX(0);
+            }
+            to{
+                transform: translate(-100%);
+            }
+        }
+
+        /* //responsive design */
+        @media (max-width:992px){
+            .navbar{
+                padding:10px 15px;
+            }
+            .logo img{
+                width:45px;
+            }
+            .logo-content h2{
+                font-size:12px;
+            }
+            .logo-content p{
+                font-size: 12px;
+            }
+            .badge img{
+                width:60px;
+            }
+            .hamburger{
+                display: flex;
+            }
+            .nav-link{
+                position: absolute;
+                top:95px;
+                left:0;
+                width:100%;
+                background:white;
+                flex-direction: column;
+                gap:0;
+                display: none;
+                box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+
+            }
+            .nav-link li{
+                border-bottom:1px solid #eee;
+            }
+            .nav-link a {
+                display: block ;
+                padding:15px;
+                font-size: 16px;
+            }
+            #menu-toggle:checked ~ .nav-link{
+                display: flex;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="content">
+            <div class="left">
+            <span>+91-9801012345</span>
+            </div>
+
+            <div class="right">
+                <a href="#">Career</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact Us</a>
+                <button>Apply Now→</button>
+            </div>
+        </div>
+        
+
+    </div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- logo -->
+             <div class="logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx_JTf-9puhCzWK2f3KYli5CvqtSNTPdBZJg&s" alt="logo">
+                <div class="logo-content">
+                    <h2>Haridwar <br> University</h2>
+                    <p>(Committed to Excellence in Education)</p>
+                </div>
+             </div>
+             <input type="checkbox" id="menu-toggle">
+             <!-- navigation  -->
+              <ul class="nav-link">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Academics</a></li>
+                <li><a href="#">student corner</a></li>
+                <li><a href="#">Admission</a></li>
+                <li>
+                    <a href="#">Placement</a>
+                </li>
+                <li><a href="#">Research</a></li>
+                <li><a href="#">Alumni</a></li>
+
+
+
+              </ul>
+              <div style="display: flex ; align-items: center;gap:15px;">
+                <div class="badge">
+                    <img src="	https://huroorkee.ac.in/_next/image?url=%2Fimages%2Flogos%2F16years.png&w=256&q=75" alt="badge">
+                </div>
+                <label for="menu-toggle" class="hamburger">=</label>
+              </div>
+        </div>
+
+    </nav>
+    <div class="announcement-bar">
+       <div class="Scroll-bar">
+        <a class="scrollbar" href="#">Admission Open - Top Placement University + Scholarship upto 50% Apply Now!</a>
+       </div>
+    </div>
+    <div class="home">
+        <div class="home-content">
+            <h2>Welcome to Haridwar <br> University, Uttarakhand</h2>
+            <p>Empowering minds, shaping future through Excellence in education</p>
+            <button>Explore Program</button>
+        </div>
+    </div>
+    
+</body>
