@@ -1,12 +1,12 @@
 // declaring variable
-// let a= 10;
-// let b= 5;
+let a= 10;
+let b= 5;
 
-// // performing operations
-// console.log("Add:"+(a+b));
-// console.log("Subtract:"+(a-b));
-// console.log("Multiply:"+(a*b));
-// console.log("Division:"+(a/b));
+// performing operations
+console.log("Add:"+(a+b));
+console.log("Subtract:"+(a-b));
+console.log("Multiply:"+(a*b));
+console.log("Division:"+(a/b));
 
 // Performing operations using functions
 console.log("Performing operations using functions")
